@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade-Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+            <div class="screen">
+                <div class="screen-body">
+                    <div class="title">
+                        <div>
+                            Student Grade Calculator
+                        </div>
+                    </div>
+
+                    <div class="form-body">
+                        <div class="app-form">
+                            <div class="inputs">
+                                <input type="text" placeholder="Physics" id="phy">
+                            </div>
+                            <div class="inputs">
+                                <input type="text" placeholder="Chemistry" id="che">
+                            </div>
+                            <div class="inputs">
+                                <input type="text" placeholder="Maths" id="mths">
+                            </div>
+                            <div class="inputs">
+                                <input type="text" placeholder="Computer Science" id="Cs">
+                            </div>
+                            <div class="inputs">
+                                <input type="text" placeholder="English" id="eng">
+                            </div>
+
+                            <div class="form-btn"> 
+                                <a class="btn" onclick="calc()"><span>Calculate Percentage</span>
+                                  <i class="fas fa-arrow-circle-right"></i>
+                                </a>
+                            </div>      
+                        </div>
+                    </div>
+
+                </div>
+                <div class="result">
+                    <p id="result"></p>
+                 </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
